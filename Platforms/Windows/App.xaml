@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="OTAKU_with_Minecraft.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:OTAKU_with_Minecraft.WinUI">
+
+</maui:MauiWinUIApplication>
