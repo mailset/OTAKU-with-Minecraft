@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="OTAKU_with_Minecraft.MainPage">
+             x:Class="OTAKU_with_Minecraft.MainPage"
+             BackgroundColor="#c93756">
 
     <ScrollView>
         <VerticalStackLayout
@@ -9,31 +10,21 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
             <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                x:Name="WelcomeLable"
+                Text="这里是OTAKU with Minecraft启动器！"
+                HorizontalOptions="Center"
                 FontSize="18"
-                HorizontalOptions="Center" />
+                TextColor="#f0f0f4"
+                />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+            <Label
+                x:Name="About"
+                Text="OTAKU with Minecher(OwM) 是一个新的Minecraft启动器，她由MaUI编写，并且遵守GPLv3开源协议进行开源的说！"
+                HorizontalOptions="Center"
+                FontSize="14"
+                TextColor="#f0f0f4"
+                />
 
         </VerticalStackLayout>
     </ScrollView>
