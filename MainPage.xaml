@@ -20,7 +20,7 @@
 
             <Label
                 x:Name="About"
-                Text="OTAKU with Minecher(OwM) 是一个新的Minecraft启动器，使用C#编写，使用MaUI（非Mahhapps）作为UI库，并且遵守GPLv3开源协议进行开源！"
+                Text="OTAKU with Minecher(OwM) 是一个新的Minecraft启动器，使用C#编写，使用MaUI（.Net Multi-platform App UI）框架，并且遵守GPLv3开源协议进行开源！"
                 HorizontalOptions="Center"
                 FontSize="14"
                 TextColor="#f0f0f4"
