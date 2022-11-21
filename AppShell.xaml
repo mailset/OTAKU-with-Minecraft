@@ -6,10 +6,18 @@
     xmlns:local="clr-namespace:OTAKU_with_Minecraft"
     Shell.FlyoutBehavior="Disabled"
     BackgroundColor="#db5a6b">
+    <TabBar>
+        <ShellContent
+        Title="启动"
+        ContentTemplate="{DataTemplate local:MainPage}"/>
 
-    <ShellContent
-        Title="哇！这里有一个新的启动器欸！"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        <ShellContent
+        Title="内核"
+        ContentTemplate="{DataTemplate local:CorePage}"
+        Route="MainPage"/>
 
+        <ShellContent
+        Title="设置"
+        ContentTemplate="{DataTemplate local:MainPage}"/>
+    </TabBar>
 </Shell>
