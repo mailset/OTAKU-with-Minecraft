@@ -15,13 +15,13 @@ namespace OwMCore {
         public void Completion(string versionTemp) {
             minecraftVersion = versionTemp;
             /** Get Missing Files */
-            SquareMinecraftLauncher.Minecraft.MCDownload[] missingFiles = sqTools.GetMissingFiles(versionTemp);
+            SquareMinecraftLauncher.Minecraft.MCDownload[] missingFiles = sqTools.GetMissingFile(versionTemp);
             /** Download Missing Files */
             Gac.DownLoadFile downloadFile = new Gac.DownLoadFile();
             int id = 0;
             for (int i = 0; i < missingFiles.Length; i++) {
                 
-                downloadFile.AddDown(missingFiles[i].Url, path.Replace(System.IO.Path.GetFileName(missingFiles[i].path), ""), System.IO.Path.GetFileName(missingFiles[i].path),id);
+                downloadFile.AddDown(missingFiles[i].Url, missingFiles[i].path.Replace(System.IO.Path.GetFileName(missingFiles[i].path), ""), System.IO.Path.GetFileName(missingFiles[i].path),id);
                 downloadFile.StartDown(3);
                 id++;
             }
