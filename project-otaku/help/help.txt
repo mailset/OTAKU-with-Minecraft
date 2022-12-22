@@ -1,0 +1,25 @@
+about download
+download <minecraft version> <custom name> download a minecraft version and rename it
+
+
+about start
+load <minecraft custom name>  des:load<user custom minecraft version(user rename's)>
+unload <minecraft custom name>  uninstall<user custom minecraft version(user rename's)>
+
+about help
+help  des:check help list of commands
+
+painted eggshell
+find by yourself~
+
+sponsor our~
+follow
+
+custom...
+use "color" command~
+
+catch crash repots
+catch <lastest time> crashrepo
+
+set
+set <java/game/root path>
